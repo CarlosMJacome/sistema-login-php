@@ -41,17 +41,7 @@ Las contraseñas se almacenan utilizando `password_hash()` para mejorar la segur
 2. Copiar la carpeta dentro de: C:\xampp\htdocs\
 3. Iniciar Apache y MySQL desde XAMPP.
 4. Crear una base de datos llamada: sistema_login
-5. Ejecutar el siguiente script SQL:
-
-CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    cedula VARCHAR(20) NOT NULL,
-    nombre VARCHAR(100) NOT NULL,
-    correo VARCHAR(100) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-6. Abrir en el navegador: http://localhost/login_php/login.php
+5. Abrir en el navegador: http://localhost/login_php/login.php
 
 ---
 
